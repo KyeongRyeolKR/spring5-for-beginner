@@ -7,7 +7,7 @@ import io.namoosori.travelclub.spring.shared.NameValueList;
 import java.util.List;
 
 public interface ClubService {
-	//
+	// 클럽 서비스
 	String registerClub(TravelClubCdo club);
 	TravelClub findClubById(String id);
 	List<TravelClub> findClubsByName(String name);
